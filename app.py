@@ -36,7 +36,7 @@ def index():
 <p>Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"</p>
 <p>Example: <br>
 1. Get the share link, like this: https://1drv.ms/t/s!sOme1Ra4dCh1r_aB (fake link)<br>
-2. Change the <b>1drv.ms</b> to <b>1drv.ws</b>, I mean, just flip the <b>m</b> to <b>w</b><br>
+2. Change the domain <b>1drv.ms</b> to <b>1drv.ws</b>, I mean, just flip the <b>m</b> to <b>w</b><br>
 which becomes https://1drv.<b>w</b>s/t/s!sOme1Ra4dCh1r_aB<br>
 3. This IS the direct link, you can paste it to browser and see.<br>
 </p>
