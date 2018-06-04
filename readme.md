@@ -6,7 +6,7 @@ Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"
 ## Example
 
 1. Get the share link, like this: https://1drv.ms/t/s!sOme1Ra4dCh1r_aB (fake link)
-2. Change the `1drv.ms` to `1drv.ws`, I mean, just flip the m to w  
+2. Change the `1drv.ms` to `1drv.ws`, I mean, just flip the **m** to **w**  
     which becomes https://1drv.ws/t/s!sOme1Ra4dCh1r_aB
 3. This IS the direct link, you can paste it to browser and see.
 
