@@ -14,7 +14,7 @@ Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"
 
 https://1drv.ms/t/s!Aiw11soXua11pxigLnclZsYIU_Rx  
 -- HTTP --> https://onedrive.live.com/redir?resid=...&authkey=!...&ithint=file%1ctxt  
---MODIFY--> https://onedrive.live.com/_download_?resid=...!1111&authkey=!...&ithint=file%1ctxt  
+--MODIFY--> https://onedrive.live.com/download?resid=...!1111&authkey=!...&ithint=file%1ctxt  
 -- HTTP --> https://jlohlg.by.files.1drv.com/some-long-long-link/file.txt?download&psid=1
 
 ## Deploy Your Self
