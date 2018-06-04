@@ -45,7 +45,7 @@ which becomes https://1drv.<b>w</b>s/t/s!sOme1Ra4dCh1r_aB<br>
 <pre>
 https://1drv.ms/t/s!Aiw11soXua11pxigLnclZsYIU_Rx
 -- HTTP --> https://onedrive.live.com/redir?resid=...&authkey=!...&ithint=file%1ctxt
---MODIFY--> https://onedrive.live.com/download?resid=...!1111&authkey=!...&ithint=file%1ctxt
+--MODIFY--> https://onedrive.live.com/<em>download</em>?resid=...!1111&authkey=!...&ithint=file%1ctxt
 -- HTTP --> https://jlohlg.by.files.1drv.com/some-long-long-link/file.txt?download&psid=1
 </pre>
 <hr>
