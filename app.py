@@ -35,7 +35,7 @@ def index():
 <h1>The OneDrive Direct Download Link Helper</h1>
 <p>Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"</p>
 <p>Example: <br>
-1. Get the share link, like this: https://1drv.ms/t/s!sOme1Ra4dCh1r_aB<br>
+1. Get the share link, like this: https://1drv.ms/t/s!sOme1Ra4dCh1r_aB (fake link)<br>
 2. Change the <b>1drv.ms</b> to <b>1drv.ws</b>, I mean, just flip the <b>m</b> to <b>w</b><br>
 which becomes https://1drv.<b>w</b>s/t/s!sOme1Ra4dCh1r_aB<br>
 3. This IS the direct link, you can paste it to browser and see.<br>
@@ -48,6 +48,8 @@ https://1drv.ms/t/s!Aiw11soXua11pxigLnclZsYIU_Rx
 --MODIFY--> https://onedrive.live.com/download?resid=...!1111&authkey=!...&ithint=file%1ctxt
 -- HTTP --> https://jlohlg.by.files.1drv.com/some-long-long-link/file.txt?download&psid=1
 </pre>
+<hr>
+<p>More Info: <a href='https://github.com/aploium/OneDrive-Direct-Link'>GitHub OneDrive-Direct-Link</a></p>
 </body>
 </html>
 """
