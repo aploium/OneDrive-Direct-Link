@@ -10,6 +10,9 @@ Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"
     which becomes https://1drv.ws/t/s!sOme1Ra4dCh1r_aB
 3. This IS the direct link, you can paste it to browser and see.
 
+btw, you can add `?txt` at the end of url, to display text link, instead of a 301 redirect.<br>
+eg: https://1drv.ws/t/s!sOme1Ra4dCh1r_aB?txt
+
 ## How it works
 
 https://1drv.ms/t/s!Aiw11soXua11pxigLnclZsYIU_Rx  

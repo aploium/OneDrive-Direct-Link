@@ -51,7 +51,7 @@ def index():
 which becomes <code>https://1drv.<b>w</b>s/t/s!sOme1Ra4dCh1r_aB</code><br>
 3. This <b>IS</b> the direct link, you can paste it to browser and see.<br>
 </p>
-<p>btw, you can add <code>?txt</code> at the end of url, to display link in page, instead of 301 redirect to it.<br>
+<p>btw, you can add <code>?txt</code> at the end of url, to display text link, instead of a 301 redirect.<br>
 eg: <code>https://1drv.<b>w</b>s/t/s!sOme1Ra4dCh1r_aB?<b>txt</b></code>
 </p>
 <hr>
