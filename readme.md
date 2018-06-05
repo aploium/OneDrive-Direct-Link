@@ -5,13 +5,13 @@ Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"
 
 ## Usage
 
-1. Get the share link, like this: https://1drv.ms/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g
+1. Get the share link, like this: https://1drv.ms/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA
 2. Change the domain `1drv.ms` to `1drv.ws`, I mean, just flip the **m** to **w**  
-    which becomes https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g
+    which becomes https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA
 3. This IS the direct link, you can paste it to browser and see.
 
 btw, you can add `?txt` at the end of url, to display text link, instead of a 301 redirect.<br>
-eg: https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g?txt
+eg: https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA?txt
 
 ## How it works
 
@@ -23,7 +23,7 @@ https://1drv.ms/t/s!Aiw11soXua11pxigLnclZsYIU_Rx
 ## Tips
 
 * Play OneDrive video directly in local player (eg:PotPlayer), most player support "play from url"
-* dispaly as image <img src='https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g' height="32" width="32"> `<img src='https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g'>`
+* dispaly as image <img src='https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA'> `<img src='https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA'>`
 
 ## Deploy Your Self
 

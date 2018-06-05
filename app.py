@@ -50,13 +50,13 @@ def index():
 <h1>The OneDrive Direct Download Link Helper</h1>
 <p>Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"</p>
 <h2>Usage</h2>
-1. Get the share link, like this: <code>https://1drv.ms/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g</code><br>
+1. Get the share link, like this: <code>https://1drv.ms/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA</code><br>
 2. Change the domain <b>1drv.ms</b> to <b>1drv.ws</b>, I mean, just flip the <b>m</b> to <b>w</b><br>
-which becomes <code>https://1drv.<b>w</b>u/t/s!Aiw77soXua44hZslqWUtBIPbWMMl4g</code><br>
+which becomes <code>https://1drv.<b>w</b>u/t/s!Aiw77soXua44hb4CEu6eSveUl0xUoA</code><br>
 3. This <b>IS</b> the direct link, you can paste it to browser and see.<br>
 </p>
 <p>btw, you can add <code>?txt</code> at the end of url, to display text link, instead of a 301 redirect.<br>
-eg: <code>https://1drv.<b>w</b>s/t/s!Aiw77soXua44hZslqWUtBIPbWMMl4g?<b>txt</b></code>
+eg: <code>https://1drv.<b>w</b>s/t/s!Aiw77soXua44hb4CEu6eSveUl0xUoA?<b>txt</b></code>
 </p>
 <hr>
 <h2>How it works</h2>
@@ -70,8 +70,8 @@ https://1drv.ms/t/s!Aiw11soXua11pxigLnclZsYIU_Rx
 <h2>Tips</h2>
 <ul>
     <li>Play OneDrive video directly in local player (eg:PotPlayer), most player support "play from url"</li>
-    <li>dispaly as image <img src='https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g' height="32" width="32">
-        <code>&lt;img src='https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g'&gt;</code></li>
+    <li>dispaly as image <img src='https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA' height="32" width="32">
+        <code>&lt;img src='https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA'&gt;</code></li>
 </ul>
 
 <hr>
