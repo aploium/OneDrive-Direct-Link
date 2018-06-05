@@ -1,6 +1,6 @@
 # coding=utf-8
 import requests
-from flask import Flask, request, redirect
+from flask import Flask, request, Response
 from cachetools.func import ttl_cache
 
 app = Flask(__name__)
@@ -30,7 +30,11 @@ def share_ts(ch, share_token):
         return url_direct
     else:
         # 301 redirect
-        return redirect(url_direct, code=301)
+        return Response('',
+                        status=301,
+                        headers={'Location': url_direct},
+                        content_type='text/plain'
+                        )
 
 
 @app.route('/')
@@ -45,14 +49,14 @@ def index():
 <body>
 <h1>The OneDrive Direct Download Link Helper</h1>
 <p>Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"</p>
-<p>Example: <br>
-1. Get the share link, like this: <code>https://1drv.ms/t/s!sOme1Ra4dCh1r_aB</code> (fake link)<br>
+<h2>Usage</h2>
+1. Get the share link, like this: <code>https://1drv.ms/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g</code><br>
 2. Change the domain <b>1drv.ms</b> to <b>1drv.ws</b>, I mean, just flip the <b>m</b> to <b>w</b><br>
-which becomes <code>https://1drv.<b>w</b>s/t/s!sOme1Ra4dCh1r_aB</code><br>
+which becomes <code>https://1drv.<b>w</b>u/t/s!Aiw77soXua44hZslqWUtBIPbWMMl4g</code><br>
 3. This <b>IS</b> the direct link, you can paste it to browser and see.<br>
 </p>
 <p>btw, you can add <code>?txt</code> at the end of url, to display text link, instead of a 301 redirect.<br>
-eg: <code>https://1drv.<b>w</b>s/t/s!sOme1Ra4dCh1r_aB?<b>txt</b></code>
+eg: <code>https://1drv.<b>w</b>s/t/s!Aiw77soXua44hZslqWUtBIPbWMMl4g?<b>txt</b></code>
 </p>
 <hr>
 <h2>How it works</h2>
@@ -62,6 +66,14 @@ https://1drv.ms/t/s!Aiw11soXua11pxigLnclZsYIU_Rx
 --MODIFY--> https://onedrive.live.com/<em>download</em>?resid=...!1111&authkey=!...&ithint=file%1ctxt
 -- HTTP --> https://jlohlg.by.files.1drv.com/some-long-long-link/file.txt?download&psid=1
 </pre>
+<hr>
+<h2>Tips</h2>
+<ul>
+    <li>Play OneDrive video directly in local player (eg:PotPlayer), most player support "play from url"</li>
+    <li>dispaly as image <img src='https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g' height="32" width="32">
+        <code>&lt;img src='https://1drv.ws/u/s!Aiw77soXua44hZslqWUtBIPbWMMl4g'&gt;</code></li>
+</ul>
+
 <hr>
 <p>More Info: <a href='https://github.com/aploium/OneDrive-Direct-Link'>GitHub OneDrive-Direct-Link</a></p>
 </body>
