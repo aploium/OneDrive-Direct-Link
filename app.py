@@ -50,9 +50,9 @@ def index():
 <h1>The OneDrive Direct Download Link Helper</h1>
 <p>Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"</p>
 <h2>Usage</h2>
-1. Get the share link, like this: <code>https://1drv.ms/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA</code><br>
+1. Get the share link, like this: <a href='https://1drv.ms/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA'>https://1drv.ms/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA</a><br>
 2. Change the domain <b>1drv.ms</b> to <b>1drv.ws</b>, I mean, just flip the <b>m</b> to <b>w</b><br>
-which becomes <code>https://1drv.<b>w</b>u/t/s!Aiw77soXua44hb4CEu6eSveUl0xUoA</code><br>
+which becomes <a href='https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA'>https://1drv.<b>w</b>s/t/s!Aiw77soXua44hb4CEu6eSveUl0xUoA</a><br>
 3. This <b>IS</b> the direct link, you can paste it to browser and see.<br>
 </p>
 <p>btw, you can add <code>?txt</code> at the end of url, to display text link, instead of a 301 redirect.<br>
