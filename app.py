@@ -56,7 +56,7 @@ which becomes <a href='https://1drv.ws/u/s!Aiw77soXua44hb4CEu6eSveUl0xUoA'>https
 3. This <b>IS</b> the direct link, you can paste it to browser and see.<br>
 </p>
 <p>btw, you can add <code>?txt</code> at the end of url, to display text link, instead of a 301 redirect.<br>
-eg: <code>https://1drv.<b>w</b>s/t/s!Aiw77soXua44hb4CEu6eSveUl0xUoA?<b>txt</b></code>
+eg: <a href='https://1drv.ws/t/s!Aiw77soXua44hb4CEu6eSveUl0xUoA?txt'>https://1drv.<b>w</b>s/t/s!Aiw77soXua44hb4CEu6eSveUl0xUoA?<b>txt</b></a>
 </p>
 <hr>
 <h2>How it works</h2>
