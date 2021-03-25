@@ -1,3 +1,8 @@
+<b>由于被黑客利用与传播病毒文件，站点永久关闭  
+Due to being used by hackers to spread virus files, the site is permanently closed
+</b>
+
+<hr>
 # The OneDrive Direct Download Link Helper
 
 Get OneDrive direct download link by just changing the "1drv.ms" to "1drv.ws"  
